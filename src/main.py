@@ -1,1 +1,9 @@
-print("hello world")
+from textnode import TextNode, TextType
+
+def main():
+    node = TextNode("This is some text", TextType.LINK, "https://boot.dev")
+    print(node)
+
+
+if __name__ == "__main__":
+    main()
